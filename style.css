@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#head2 {
+    display: flex;
+    align-items: center;
+}
+
+#image {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav h5 {
+    margin: 0 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+nav h5:hover {
+    color: #ffd700; /* Gold color for hover */
+}
+
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+}
+
+.banner button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #007BFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner button:hover {
+    background-color: #e2e2e2;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.container-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 22%;
+}
+
+.container-content h6 {
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+.card-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
